@@ -1,5 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+
+// Button is a default import, you can tell because it does not have curly brackets around it.
+
+import Button from "./components/Button";
+import "./App.css";
+
+// The paragraphs are named imports, you can tell because they have curly brackets
+
+import { ParagraphOne, ParagraphTwo } from "./components/Paragraphs";
 
 function App() {
   return (
@@ -17,6 +25,9 @@ function App() {
         >
           Learn React
         </a>
+        <Button />
+        <ParagraphOne />
+        <ParagraphTwo />
       </header>
     </div>
   );
