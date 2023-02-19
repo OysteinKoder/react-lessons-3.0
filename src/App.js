@@ -9,6 +9,8 @@ import "./App.css";
 
 import { ParagraphOne, ParagraphTwo } from "./components/Paragraphs";
 
+import { text } from "./language/text_example";
+
 function App() {
   return (
     <div className="App">
@@ -26,8 +28,8 @@ function App() {
           Learn React
         </a>
         <Button />
-        <ParagraphOne text="Hello world" />
-        <ParagraphTwo text="My name is john" />
+        <ParagraphOne text={text.TEXT_ONE} />
+        <ParagraphTwo text={text.TEXT_TWO} />
       </header>
     </div>
   );
