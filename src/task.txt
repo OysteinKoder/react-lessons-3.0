@@ -1,0 +1,10 @@
+Create a React component that displays a message when rendered. 
+Export the component with both a named and a default export.
+Create another component that imports the named export and another component that imports the default export.
+Render both imported components in the App component.
+
+Requirements:
+The message component should be named "Message" and should accept a prop "text" that contains the message to be displayed.
+The named export should be called "MessageComponent".
+The default export should be the Message component.
+The App component should import both the named export and the default export and render both components with different messages.
