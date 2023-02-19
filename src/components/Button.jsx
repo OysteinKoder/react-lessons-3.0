@@ -2,7 +2,15 @@
 // Accepts props and returns a React element.
 
 const Button = () => {
-  return <button onClick={() => console.log("hello world")}>click me</button>;
+  const testLog = () => {
+    console.log("hello world");
+  };
+
+  return (
+    <>
+      <button onClick={testLog}>click me</button>
+    </>
+  );
 };
 
 // Export default is used to export a single class, function or primitive from a script file
