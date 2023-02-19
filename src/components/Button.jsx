@@ -5,7 +5,6 @@ const Button = () => {
   const testLog = () => {
     console.log("hello world");
   };
-
   return (
     <>
       <button onClick={testLog}>click me</button>
