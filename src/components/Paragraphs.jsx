@@ -7,3 +7,11 @@ export const ParagraphOne = () => {
 export const ParagraphTwo = () => {
   return <p>Paragraph two</p>;
 };
+
+// export const ParagraphOne = ({ text }) => {
+//   return <p>{text}</p>;
+// };
+
+// export const ParagraphTwo = ({ text }) => {
+//   return <p>{text}</p>;
+// };

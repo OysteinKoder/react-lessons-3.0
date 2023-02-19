@@ -26,8 +26,8 @@ function App() {
           Learn React
         </a>
         <Button />
-        <ParagraphOne />
-        <ParagraphTwo />
+        <ParagraphOne text="Hello world" />
+        <ParagraphTwo text="My name is john" />
       </header>
     </div>
   );
