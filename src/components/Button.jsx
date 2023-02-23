@@ -1,13 +1,15 @@
 // A React functional component is a simple JavaScript function
 // Accepts props and returns a React element.
 
-const Button = () => {
+import { StyledButton } from "./button/styles";
+
+const Button = ({ text }) => {
   const testLog = () => {
     console.log("hello world");
   };
   return (
     <>
-      <button onClick={testLog}>click me</button>
+      <StyledButton onClick={testLog}>{text}</StyledButton>
     </>
   );
 };
