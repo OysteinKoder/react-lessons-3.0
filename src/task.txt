@@ -1,5 +1,6 @@
-Create a new file called Button.js.
+Task A:
 
+- Create a new file called Button.js.
 - Import the styled function from styled-components.
 - Create a new styled component called StyledButton using the styled function.
 - Add styling to StyledButton using CSS. For example, you might set the background color, font size, and padding.
@@ -7,6 +8,7 @@ Create a new file called Button.js.
 - Export the StyledButton component from the file.
 - Use the StyledButton component in your application by importing it and rendering it as a normal React component.
 
+Task B:
 - Create a text file and make an object containing keys with strings.
 - Remember to use capital letters for text objects and keys. 
 - const TEXT = {
