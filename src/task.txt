@@ -6,3 +6,11 @@ Create a new file called Button.js.
 - Add a hover effect to StyledButton using the &:hover selector. For example, you might change the background color and add a box-shadow.
 - Export the StyledButton component from the file.
 - Use the StyledButton component in your application by importing it and rendering it as a normal React component.
+
+- Create a text file and make an object containing keys with strings.
+- Remember to use capital letters for text objects and keys. 
+- const TEXT = {
+    TEXT_KEY_ONE = "This is text",
+    TEXT_KEY_TWO = "This is also text"
+}
+- Import that text object and use props to display the text in your component.
