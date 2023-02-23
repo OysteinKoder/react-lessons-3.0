@@ -1,19 +1,14 @@
 Task: 
-Description: In this task, 
-you will be building a web application that has multiple pages with different routes,
-and you will implement a client-side routing system using react-router-dom.
- The application should have a navigation bar that contains links to the different pages,
-and clicking on a link should update the URL and display the corresponding page.
+Make a new page that contains a counter component.
+Use the useState hook to do this.
 
-Requirements:
-- Install the react-router-dom package. npm i react-router-dom
-- Use styled components to style the components an nav-bar
-- Create at least two different components that will serve as the pages of the application.
-  For example, you could create an "About" page and a "Contact" page.
+- The component should display a counter initialized to 0.
+- The component should have  a button to increment the counter and a button to decrement the counter.
+- The component should use the useState hook to manage the state of the counter.
+- The component should display the current value of the counter.
 
-- Implement a BrowserRouter component to provide a context for the application to use client-side routing.
-- Create a navigation bar component that displays links to the different pages of the application.
-- Implement Link components inside the navigation bar from react-router-dom to provide clickable links to the different pages.
-- Use Route components from react-router-dom inside Routes to define the “routes” for the different pages of the application.
-- When a user clicks on a link, the URL should be updated and the corresponding page should be displayed.
+bonus: 
+- If the count goes above 0 style the number with green.
+- If the count goes below 0 style the number with red.
+- if the count is 0 style the number with a natural color like white or black.
 

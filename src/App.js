@@ -3,6 +3,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import { TEXT } from "./language/language";
+import CounterPage from "./pages/CounterPage";
 
 // <BrowserRouter>:
 // This component provides a context for the application to use client-side routing using the HTML5 history API.
@@ -27,12 +28,14 @@ function App() {
           <nav>
             <Link to="/about">{TEXT.NAVIGATION.ABOUT}</Link>
             <Link to="/contact">{TEXT.NAVIGATION.CONTACT}</Link>
+            <Link to="/counter">{TEXT.NAVIGATION.COUNTER}</Link>
           </nav>
         </header>
         <main>
           <Routes>
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/counter" element={<CounterPage />} />
           </Routes>
         </main>
       </div>

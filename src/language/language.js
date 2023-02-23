@@ -8,11 +8,16 @@ export const TEXT = {
   NAVIGATION: {
     ABOUT: "About",
     CONTACT: "Contact",
+    COUNTER: "Counter",
   },
   ABOUT_PAGE: {
     ABOUT_TEXT: "This is the about page with useful information",
   },
   CONTACT_PAGE: {
     CONTACT_INFO: "Tlf: 815 493 00",
+  },
+  COUNTER_PAGE: {
+    INCREMENT_BUTTON: "Increment",
+    DECREMENT_BUTTON: "Decrement",
   },
 };
