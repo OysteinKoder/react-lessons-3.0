@@ -1,10 +1,10 @@
 import Paragraph from "../components/Paragraph";
-import { language } from "../language/language";
+import { TEXT } from "../language/language";
 
 const AboutPage = () => {
   return (
     <>
-      <Paragraph text={language.aboutPage.ABOUT_TEXT} />
+      <Paragraph text={TEXT.ABOUT_PAGE.ABOUT_TEXT} />
     </>
   );
 };

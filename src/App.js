@@ -2,6 +2,7 @@ import "./App.css";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { TEXT } from "./language/language";
 
 // <BrowserRouter>:
 // This component provides a context for the application to use client-side routing using the HTML5 history API.
@@ -24,8 +25,8 @@ function App() {
       <div className="App">
         <header className="App-header">
           <nav>
-            <Link to="/about">about</Link>
-            <Link to="/contact">contact</Link>
+            <Link to="/about">{TEXT.NAVIGATION.ABOUT}</Link>
+            <Link to="/contact">{TEXT.NAVIGATION.CONTACT}</Link>
           </nav>
         </header>
         <main>

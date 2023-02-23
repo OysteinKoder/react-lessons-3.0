@@ -1,8 +1,8 @@
 import Paragraph from "../components/Paragraph";
-import { language } from "../language/language";
+import { TEXT } from "../language/language";
 
 const ContactPage = () => {
-  return <Paragraph text={language.contactPage.CONTACT_INFO} />;
+  return <Paragraph text={TEXT.CONTACT_PAGE.CONTACT_INFO} />;
 };
 
 export default ContactPage;
