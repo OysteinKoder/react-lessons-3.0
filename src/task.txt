@@ -1,16 +1,19 @@
-Description: 
-In this task, you will be building a web application that has multiple pages with different routes, 
-and you will implement a client-side routing system using react-router-dom. 
-The application should have a navigation bar that contains links to the different pages, 
+Task: 
+Description: In this task, 
+you will be building a web application that has multiple pages with different routes,
+and you will implement a client-side routing system using react-router-dom.
+ The application should have a navigation bar that contains links to the different pages,
 and clicking on a link should update the URL and display the corresponding page.
 
 Requirements:
 - Install the react-router-dom package. npm i react-router-dom
-- Style the the components using styled-components.
+- Use styled components to style the components an nav-bar
 - Create at least two different components that will serve as the pages of the application.
-    For example, you could create an "About" page and a "Contact" page.
+  For example, you could create an "About" page and a "Contact" page.
+
 - Implement a BrowserRouter component to provide a context for the application to use client-side routing.
 - Create a navigation bar component that displays links to the different pages of the application.
-- Implement Link components from react-router-dom to provide clickable links to the different pages.
-- Use Route components from react-router-dom to define the routes for the different pages of the application.
-    When a user clicks on a link, the URL should be updated and the corresponding page should be displayed.
+- Implement Link components inside the navigation bar from react-router-dom to provide clickable links to the different pages.
+- Use Route components from react-router-dom inside Routes to define the “routes” for the different pages of the application.
+- When a user clicks on a link, the URL should be updated and the corresponding page should be displayed.
+
