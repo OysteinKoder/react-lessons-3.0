@@ -8,6 +8,7 @@ Use the useState hook to do this.
 - The component should display the current value of the counter.
 
 bonus: 
+- Conditionally style the count number with inline styling
 - If the count goes above 0 style the number with green.
 - If the count goes below 0 style the number with red.
 - if the count is 0 style the number with a natural color like white or black.

@@ -1,10 +1,11 @@
 import Paragraph from "../components/Paragraph";
+import { StyledParagraph } from "../components/paragraphs/styles";
 import { TEXT } from "../language/language";
 
 const AboutPage = () => {
   return (
     <>
-      <Paragraph text={TEXT.ABOUT_PAGE.ABOUT_TEXT} />
+      <StyledParagraph> {TEXT.ABOUT_PAGE.ABOUT_TEXT} </StyledParagraph>
     </>
   );
 };

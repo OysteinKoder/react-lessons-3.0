@@ -17,7 +17,7 @@ export const TEXT = {
     CONTACT_INFO: "Tlf: 815 493 00",
   },
   COUNTER_PAGE: {
-    INCREMENT_BUTTON: "Increment",
     DECREMENT_BUTTON: "Decrement",
+    INCREMENT_BUTTON: "Increment",
   },
 };
