@@ -9,6 +9,7 @@ export const TEXT = {
     ABOUT: "About",
     CONTACT: "Contact",
     COUNTER: "Counter",
+    CAT_FACTS: "Cat Facts",
   },
   ABOUT_PAGE: {
     ABOUT_TEXT: "This is the about page with useful information",
