@@ -28,9 +28,7 @@ const CatFactsPage = () => {
     return (
       <>
         <h2>Facts</h2>
-        {data.map((fact) => {
-          return <p key={fact._id}>{fact.text}</p>;
-        })}
+        {data[0].text}
       </>
     );
   }
