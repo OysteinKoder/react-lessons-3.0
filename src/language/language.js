@@ -21,4 +21,7 @@ export const TEXT = {
     DECREMENT_BUTTON: "Decrement",
     INCREMENT_BUTTON: "Increment",
   },
+  EVENTS: {
+    LOADING: "Loading...",
+  },
 };

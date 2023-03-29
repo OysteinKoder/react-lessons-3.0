@@ -1,15 +1,11 @@
-Task: 
-Make a new page that contains a counter component.
-Use the useState hook to do this.
+Task:
+ Create a React app that fetches data from an API and displays it on the page.
 
-- The component should display a counter initialized to 0.
-- The component should have  a button to increment the counter and a button to decrement the counter.
-- The component should use the useState hook to manage the state of the counter.
-- The component should display the current value of the counter.
+Requirements:
+- Use React, useState, useEffect and axios.
+- Fetch data from any public API of your choice.
+- Display the data in a way that makes sense for the API you’re using.
+- Style the app using styled components.
 
-bonus: 
-- Conditionally style the count number with inline styling
-- If the count goes above 0 style the number with green.
-- If the count goes below 0 style the number with red.
-- if the count is 0 style the number with a natural color like white or black.
+
 

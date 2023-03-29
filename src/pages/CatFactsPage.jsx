@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { TEXT } from "../language/language";
 
 const CatFactsPage = () => {
   const [data, setData] = useState();
@@ -38,7 +39,7 @@ const CatFactsPage = () => {
   else if (error) {
     return <h2>{error.message}</h2>;
   } else {
-    return <h2>Reload</h2>;
+    return <h2>{TEXT.EVENTS.LOADING}</h2>;
   }
 };
 
