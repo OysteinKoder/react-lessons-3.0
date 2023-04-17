@@ -21,11 +21,9 @@ const CounterPage = () => {
     <>
       {/* Paragraph element that displays the current count */}
       <StyledParagraph
+        value={count}
         // If the count is positive, the text color is green
         // If the count is negative, the text color is red
-        style={
-          count > 0 ? { color: "green" } : count < 0 ? { color: "red" } : null
-        }
       >
         {count}
       </StyledParagraph>

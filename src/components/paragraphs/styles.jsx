@@ -7,6 +7,7 @@ import styled from "styled-components";
 export const StyledParagraph = styled.p`
   font-size: 16px;
   line-height: 1.5;
-  color: #61dafb;
+  color: ${(props) =>
+    props.value > 0 ? "green" : props.value < 0 ? "red" : null};
   margin-bottom: 1em;
 `;

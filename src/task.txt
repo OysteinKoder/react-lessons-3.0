@@ -1,11 +1,5 @@
 Task:
- Create a React app that fetches data from an API and displays it on the page.
-
-Requirements:
-- Use React, useState, useEffect and axios.
-- Fetch data from any public API of your choice.
-- Display the data in a way that makes sense for the API you’re using.
-- Style the app using styled components.
+Make the counter change color with using conditionals in styled components instead of using inline styling.
 
 
 
